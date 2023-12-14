@@ -1,0 +1,1140 @@
+
+Aaron Seo
+
+...Here's what the joke outputs are without interleaving with the proverbs and on default.  
+In the first set, all four jokes are different from each other, while the second set 
+also are different from each other, but in different order.
+
+Do you want a joke or proverb? To switch ports, press 's'.
+Just press enter for one or type quit to end:
+JA Aaron: Why did the chicken cross the road. To get to the other side!
+
+
+JB Aaron: Did you hear about the actor who fell through the floorboards? He was just going through a stage.
+
+
+JC Aaron: Hear about a new restraunt called Karma?  There's no menu: You get what you deserve.
+
+
+JD Aaron: I invented a new word! Plagiarism!
+
+JOKE CYCLE COMPLETE
+
+
+JA Aaron: I invented a new word! Plagiarism!
+
+
+JB Aaron: Why did the chicken cross the road. To get to the other side!
+
+
+JC Aaron: Did you hear about the actor who fell through the floorboards? He was just going through a stage.
+
+
+JD Aaron: Hear about a new restraunt called Karma?  There's no menu: You get what you deserve.
+
+JOKE CYCLE COMPLETE
+
+
+...This set is when the mode is shifted to proverb mode.  Like before, each set of four proverbs
+are different from each other, and they are not in the same order for each sets of four.
+
+PA Aaron: All good things must come to an end.
+
+
+PB Aaron: Better late than never.
+
+
+PC Aaron: Look before you leap.
+
+
+PD Aaron: Actions speak louder than words
+
+PROVERB CYCLE COMPLETE
+
+
+PA Aaron: Better late than never.
+
+
+PB Aaron: Actions speak louder than words
+
+
+PC Aaron: All good things must come to an end.
+
+
+PD Aaron: Look before you leap.
+
+...This set shows jokes and proverbs inteleaving with each other.
+
+PROVERB CYCLE COMPLETE
+
+JA Aaron: I invented a new word! Plagiarism!
+
+
+PA Aaron: Better late than never.
+
+
+PB Aaron: Actions speak louder than words
+
+
+JB Aaron: Why did the chicken cross the road. To get to the other side!
+
+
+JC Aaron: Hear about a new restraunt called Karma?  There's no menu: You get what you deserve.
+
+
+JD Aaron: Did you hear about the actor who fell through the floorboards? He was just going through a stage.
+
+JOKE CYCLE COMPLETE
+
+
+PC Aaron: All good things must come to an end.
+
+
+PD Aaron: Look before you leap.
+
+PROVERB CYCLE COMPLETE
+
+
+
+PA Aaron: Better late than never.
+
+
+PB Aaron: Actions speak louder than words
+
+
+JA Aaron: Hear about a new restraunt called Karma?  There's no menu: You get what you deserve.
+
+
+JB Aaron: I invented a new word! Plagiarism!
+
+
+PC Aaron: Look before you leap.
+
+
+PD Aaron: All good things must come to an end.
+
+PROVERB CYCLE COMPLETE
+
+
+JC Aaron: Why did the chicken cross the road. To get to the other side!
+
+
+JD Aaron: Did you hear about the actor who fell through the floorboards? He was just going through a stage.
+
+JOKE CYCLE COMPLETE
+
+
+...This section right here is for the JokeAdminClient.  Pressing enter changes the mode of that ports
+
+
+This is the constructor for JokeClientAdmin if you want to use it.
+
+Server One: localhost, port 5050
+Enter your name for admin: Aaron
+Hi Aaron
+Would you like to change the mode?
+If yes, simply press enter.
+If you want to switch ports, type s.
+If you want to quit, type quit:
+
+The current mode is now proverb for port 4545 of host localhost
+
+
+The current mode is now joke for port 4545 of host localhost
+
+
+The current mode is now proverb for port 4545 of host localhost
+
+
+The current mode is now joke for port 4545 of host localhost
+
+
+The current mode is now proverb for port 4545 of host localhost
+   
+
+The current mode is now joke for port 4545 of host localhost
+   
+
+The current mode is now proverb for port 4545 of host localhost
+
+
+The current mode is now joke for port 4545 of host localhost
+quit
+Thank you for using the admin.  The current mode is now joke
+Cancelled by user request.
+
+
+...This next set of jokes and proverb is from the secondary server in the joke client.  
+
+
+This is the Joke client constructor if you want to use it.
+
+Server one: localhost, port 4545  Server two: localhost port 4546
+Enter your name: Aaron
+Hi Aaron
+Do you want a joke or proverb? To switch ports, press 's'. 
+Just press enter for one or type quit to end: s
+Now communicating with: localhost, port 4546
+
+
+<S2> PA Aaron: Actions speak louder than words
+
+
+<S2> PB Aaron: All good things must come to an end.
+
+
+<S2> PC Aaron: Look before you leap.
+
+
+<S2> PD Aaron: Better late than never.
+
+PROVERB CYCLE COMPLETE
+
+
+<S2> PA Aaron: Actions speak louder than words
+
+
+<S2> PB Aaron: Better late than never.
+
+
+<S2> PC Aaron: All good things must come to an end.
+
+
+<S2> PD Aaron: Look before you leap.
+
+PROVERB CYCLE COMPLETE
+
+
+<S2> JA Aaron: I invented a new word! Plagiarism!
+
+
+<S2> JB Aaron: Why did the chicken cross the road. To get to the other side!
+
+
+<S2> JC Aaron: Did you hear about the actor who fell through the floorboards? He was just going through a stage.
+
+
+<S2> JD Aaron: Hear about a new restraunt called Karma?  There's no menu: You get what you deserve.
+
+JOKE CYCLE COMPLETE
+
+
+<S2> JA Aaron: Why did the chicken cross the road. To get to the other side!
+
+
+<S2> JB Aaron: Hear about a new restraunt called Karma?  There's no menu: You get what you deserve.
+
+
+<S2> JC Aaron: I invented a new word! Plagiarism!
+
+
+<S2> JD Aaron: Did you hear about the actor who fell through the floorboards? He was just going through a stage.
+
+JOKE CYCLE COMPLETE
+
+
+... This next set are jokes and proverbs interleaving in the secondary server.
+
+<S2> JA Aaron: Why did the chicken cross the road. To get to the other side!
+
+
+<S2> JB Aaron: Did you hear about the actor who fell through the floorboards? He was just going through a stage.
+
+
+<S2> JC Aaron: Hear about a new restraunt called Karma?  There's no menu: You get what you deserve.
+
+
+<S2> PA Aaron: All good things must come to an end.
+
+
+<S2> PB Aaron: Better late than never.
+
+
+<S2> JD Aaron: I invented a new word! Plagiarism!
+
+JOKE CYCLE COMPLETE
+
+
+<S2> PC Aaron: Actions speak louder than words
+
+
+<S2> PD Aaron: Look before you leap.
+
+PROVERB CYCLE COMPLETE
+
+
+<S2> PA Aaron: Actions speak louder than words
+
+
+<S2> JA Aaron: Hear about a new restraunt called Karma?  There's no menu: You get what you deserve.
+
+
+<S2> JB Aaron: I invented a new word! Plagiarism!
+
+
+<S2> JC Aaron: Did you hear about the actor who fell through the floorboards? He was just going through a stage.
+
+
+<S2> PB Aaron: Better late than never.
+
+
+<S2> PC Aaron: Look before you leap.
+
+
+<S2> PD Aaron: All good things must come to an end.
+
+PROVERB CYCLE COMPLETE
+
+
+<S2> JD Aaron: Why did the chicken cross the road. To get to the other side!
+
+JOKE CYCLE COMPLETE
+
+
+...This next set is the joke client switching between ports and getting jokes or proverbs from them.
+
+
+
+<S2> JD Aaron: Why did the chicken cross the road. To get to the other side!
+
+JOKE CYCLE COMPLETE
+
+s
+Now communicating with: localhost, port 4545
+
+
+PA Aaron: Better late than never.
+
+
+PB Aaron: All good things must come to an end.
+
+
+PC Aaron: Actions speak louder than words
+
+s
+Now communicating with: localhost, port 4546
+
+
+<S2> PA Aaron: Look before you leap.
+
+
+<S2> PB Aaron: Better late than never.
+
+
+<S2> PC Aaron: Actions speak louder than words
+
+s
+Now communicating with: localhost, port 4545
+
+
+PD Aaron: All good things must come to an end.
+
+PROVERB CYCLE COMPLETE
+
+s
+Now communicating with: localhost, port 4546
+
+
+<S2> PD Aaron: All good things must come to an end.
+
+PROVERB CYCLE COMPLETE
+
+
+<S2> JA Aaron: Did you hear about the actor who fell through the floorboards? He was just going through a stage.
+
+
+<S2> JB Aaron: Why did the chicken cross the road. To get to the other side!
+
+s
+Now communicating with: localhost, port 4545
+
+
+PA Aaron: Look before you leap.
+
+
+PB Aaron: All good things must come to an end.
+
+s
+Now communicating with: localhost, port 4546
+
+
+<S2> JC Aaron: Hear about a new restraunt called Karma?  There's no menu: You get what you deserve.
+
+
+<S2> JD Aaron: Did you hear about the actor who fell through the floorboards? He was just going through a stage.
+
+JOKE CYCLE COMPLETE
+
+s
+Now communicating with: localhost, port 4545
+
+
+PC Aaron: Actions speak louder than words
+
+
+PD Aaron: Better late than never.
+
+PROVERB CYCLE COMPLETE
+
+
+JA Aaron: I invented a new word! Plagiarism!
+
+
+JB Aaron: Hear about a new restraunt called Karma?  There's no menu: You get what you deserve.
+
+s
+Now communicating with: localhost, port 4546
+
+
+<S2> PA Aaron: Look before you leap.
+
+
+<S2> PB Aaron: All good things must come to an end.
+
+
+<S2> PC Aaron: Better late than never.
+
+
+<S2> PD Aaron: Actions speak louder than words
+
+PROVERB CYCLE COMPLETE
+
+s
+Now communicating with: localhost, port 4545
+
+
+JC Aaron: Did you hear about the actor who fell through the floorboards? He was just going through a stage.
+
+
+JD Aaron: Why did the chicken cross the road. To get to the other side!
+
+JOKE CYCLE COMPLETE
+
+
+...This is the secondary Jokeserver output sample:
+
+Secondary server is now running
+In the admin looper thread
+Aaron Seo's Joke Server 1.0 starting up, listening at port 4546.
+
+ServerSocket awaiting connections...
+
+FROM THE CLIENT ADMIN
+
+Daniel has switched the mode.
+The mode is now proverb for port number 5051
+Connection from Socket[addr=/127.0.0.1,port=62114,localport=4546]
+
+FROM THE CLIENT:
+
+Username: Ben
+Sending proverb to Ben
+
+FROM THE CLIENT ADMIN
+
+Daniel has switched the mode.
+The mode is now joke for port number 5051
+Connection from Socket[addr=/127.0.0.1,port=62133,localport=4546]
+
+FROM THE CLIENT:
+
+Username: Ben
+Sending joke to Ben
+Connection from Socket[addr=/127.0.0.1,port=62134,localport=4546]
+
+FROM THE CLIENT:
+
+Username: Ben
+Sending joke to Ben
+Connection from Socket[addr=/127.0.0.1,port=62136,localport=4546]
+
+FROM THE CLIENT:
+
+Username: Ben
+Sending joke to Ben
+Connection from Socket[addr=/127.0.0.1,port=62139,localport=4546]
+
+FROM THE CLIENT:
+
+Username: Ben
+Sending joke to Ben
+JOKE CYCLE COMPLETE for Ben
+
+FROM THE CLIENT ADMIN
+
+Daniel has switched the mode.
+The mode is now proverb for port number 5051
+Connection from Socket[addr=/127.0.0.1,port=62160,localport=4546]
+
+FROM THE CLIENT:
+
+Username: Ben
+Sending proverb to Ben
+Connection from Socket[addr=/127.0.0.1,port=62163,localport=4546]
+
+FROM THE CLIENT:
+
+Username: Ben
+Sending proverb to Ben
+Connection from Socket[addr=/127.0.0.1,port=62165,localport=4546]
+
+FROM THE CLIENT:
+
+Username: Ben
+Sending proverb to Ben
+PROVERB CYCLE COMPLETE for Ben
+Connection from Socket[addr=/127.0.0.1,port=62168,localport=4546]
+
+FROM THE CLIENT:
+
+Username: Ben
+Ben has just quit the server.
+
+FROM THE CLIENT ADMIN
+
+Daniel has quit the admin.
+
+FROM THE CLIENT ADMIN
+
+Finn has switched the mode.
+The mode is now joke for port number 5051
+
+FROM THE CLIENT ADMIN
+
+Finn has switched the mode.
+The mode is now proverb for port number 5051
+Connection from Socket[addr=/127.0.0.1,port=62683,localport=4546]
+
+FROM THE CLIENT:
+
+Username: Aaron
+Sending proverb to Aaron
+Connection from Socket[addr=/127.0.0.1,port=62688,localport=4546]
+
+FROM THE CLIENT:
+
+Username: Aaron
+Sending proverb to Aaron
+Connection from Socket[addr=/127.0.0.1,port=62689,localport=4546]
+
+FROM THE CLIENT:
+
+Username: Aaron
+Sending proverb to Aaron
+Connection from Socket[addr=/127.0.0.1,port=62692,localport=4546]
+
+FROM THE CLIENT:
+
+Username: Aaron
+Sending proverb to Aaron
+PROVERB CYCLE COMPLETE for Aaron
+Connection from Socket[addr=/127.0.0.1,port=62694,localport=4546]
+
+FROM THE CLIENT:
+
+Username: Aaron
+Sending proverb to Aaron
+Connection from Socket[addr=/127.0.0.1,port=62695,localport=4546]
+
+FROM THE CLIENT:
+
+Username: Aaron
+Sending proverb to Aaron
+Connection from Socket[addr=/127.0.0.1,port=62697,localport=4546]
+
+FROM THE CLIENT:
+
+Username: Aaron
+Sending proverb to Aaron
+Connection from Socket[addr=/127.0.0.1,port=62699,localport=4546]
+
+FROM THE CLIENT:
+
+Username: Aaron
+Sending proverb to Aaron
+PROVERB CYCLE COMPLETE for Aaron
+
+FROM THE CLIENT ADMIN
+
+Finn has switched the mode.
+The mode is now joke for port number 5051
+Connection from Socket[addr=/127.0.0.1,port=62721,localport=4546]
+
+FROM THE CLIENT:
+
+Username: Aaron
+Sending joke to Aaron
+Connection from Socket[addr=/127.0.0.1,port=62723,localport=4546]
+
+FROM THE CLIENT:
+
+Username: Aaron
+Sending joke to Aaron
+Connection from Socket[addr=/127.0.0.1,port=62725,localport=4546]
+
+FROM THE CLIENT:
+
+Username: Aaron
+Sending joke to Aaron
+Connection from Socket[addr=/127.0.0.1,port=62727,localport=4546]
+
+FROM THE CLIENT:
+
+Username: Aaron
+Sending joke to Aaron
+JOKE CYCLE COMPLETE for Aaron
+Connection from Socket[addr=/127.0.0.1,port=62729,localport=4546]
+
+FROM THE CLIENT:
+
+Username: Aaron
+Sending joke to Aaron
+Connection from Socket[addr=/127.0.0.1,port=62731,localport=4546]
+
+FROM THE CLIENT:
+
+Username: Aaron
+Sending joke to Aaron
+Connection from Socket[addr=/127.0.0.1,port=62733,localport=4546]
+
+FROM THE CLIENT:
+
+Username: Aaron
+Sending joke to Aaron
+Connection from Socket[addr=/127.0.0.1,port=62735,localport=4546]
+
+FROM THE CLIENT:
+
+Username: Aaron
+Sending joke to Aaron
+JOKE CYCLE COMPLETE for Aaron
+Connection from Socket[addr=/127.0.0.1,port=62868,localport=4546]
+
+FROM THE CLIENT:
+
+Username: Aaron
+Sending joke to Aaron
+Connection from Socket[addr=/127.0.0.1,port=62874,localport=4546]
+
+FROM THE CLIENT:
+
+Username: Aaron
+Sending joke to Aaron
+Connection from Socket[addr=/127.0.0.1,port=62875,localport=4546]
+
+FROM THE CLIENT:
+
+Username: Aaron
+Sending joke to Aaron
+
+FROM THE CLIENT ADMIN
+
+Finn has switched the mode.
+The mode is now proverb for port number 5051
+Connection from Socket[addr=/127.0.0.1,port=62883,localport=4546]
+
+FROM THE CLIENT:
+
+Username: Aaron
+Sending proverb to Aaron
+JOKE CYCLE COMPLETE for Aaron
+Connection from Socket[addr=/127.0.0.1,port=62885,localport=4546]
+
+FROM THE CLIENT:
+
+Username: Aaron
+Sending proverb to Aaron
+JOKE CYCLE COMPLETE for Aaron
+
+FROM THE CLIENT ADMIN
+
+Finn has switched the mode.
+The mode is now joke for port number 5051
+Connection from Socket[addr=/127.0.0.1,port=62904,localport=4546]
+
+FROM THE CLIENT:
+
+Username: Aaron
+Sending joke to Aaron
+JOKE CYCLE COMPLETE for Aaron
+
+FROM THE CLIENT ADMIN
+
+Finn has switched the mode.
+The mode is now proverb for port number 5051
+Connection from Socket[addr=/127.0.0.1,port=62917,localport=4546]
+
+FROM THE CLIENT:
+
+Username: Aaron
+Sending proverb to Aaron
+Connection from Socket[addr=/127.0.0.1,port=62924,localport=4546]
+
+FROM THE CLIENT:
+
+Username: Aaron
+Sending proverb to Aaron
+PROVERB CYCLE COMPLETE for Aaron
+Connection from Socket[addr=/127.0.0.1,port=62969,localport=4546]
+
+FROM THE CLIENT:
+
+Username: Aaron
+Sending proverb to Aaron
+
+FROM THE CLIENT ADMIN
+
+Finn has switched the mode.
+The mode is now joke for port number 5051
+Connection from Socket[addr=/127.0.0.1,port=62979,localport=4546]
+
+FROM THE CLIENT:
+
+Username: Aaron
+Sending joke to Aaron
+Connection from Socket[addr=/127.0.0.1,port=62980,localport=4546]
+
+FROM THE CLIENT:
+
+Username: Aaron
+Sending joke to Aaron
+Connection from Socket[addr=/127.0.0.1,port=62982,localport=4546]
+
+FROM THE CLIENT:
+
+Username: Aaron
+Sending joke to Aaron
+
+FROM THE CLIENT ADMIN
+
+Finn has switched the mode.
+The mode is now proverb for port number 5051
+Connection from Socket[addr=/127.0.0.1,port=63002,localport=4546]
+
+FROM THE CLIENT:
+
+Username: Aaron
+Sending proverb to Aaron
+JOKE CYCLE COMPLETE for Aaron
+Connection from Socket[addr=/127.0.0.1,port=63004,localport=4546]
+
+FROM THE CLIENT:
+
+Username: Aaron
+Sending proverb to Aaron
+JOKE CYCLE COMPLETE for Aaron
+Connection from Socket[addr=/127.0.0.1,port=63006,localport=4546]
+
+FROM THE CLIENT:
+
+Username: Aaron
+Sending proverb to Aaron
+JOKE CYCLE COMPLETE for Aaron
+PROVERB CYCLE COMPLETE for Aaron
+
+FROM THE CLIENT ADMIN
+
+Finn has switched the mode.
+The mode is now joke for port number 5051
+Connection from Socket[addr=/127.0.0.1,port=63016,localport=4546]
+
+FROM THE CLIENT:
+
+Username: Aaron
+Sending joke to Aaron
+JOKE CYCLE COMPLETE for Aaron
+
+FROM THE CLIENT ADMIN
+
+Finn has switched the mode.
+The mode is now proverb for port number 5051
+Connection from Socket[addr=/127.0.0.1,port=63176,localport=4546]
+
+FROM THE CLIENT:
+
+Username: Aaron
+Sending proverb to Aaron
+Connection from Socket[addr=/127.0.0.1,port=63178,localport=4546]
+
+FROM THE CLIENT:
+
+Username: Aaron
+Sending proverb to Aaron
+Connection from Socket[addr=/127.0.0.1,port=63181,localport=4546]
+
+FROM THE CLIENT:
+
+Username: Aaron
+Sending proverb to Aaron
+Connection from Socket[addr=/127.0.0.1,port=63204,localport=4546]
+
+FROM THE CLIENT:
+
+Username: Aaron
+Sending proverb to Aaron
+PROVERB CYCLE COMPLETE for Aaron
+
+FROM THE CLIENT ADMIN
+
+Finn has switched the mode.
+The mode is now joke for port number 5051
+Connection from Socket[addr=/127.0.0.1,port=63246,localport=4546]
+
+FROM THE CLIENT:
+
+Username: Aaron
+Sending joke to Aaron
+Connection from Socket[addr=/127.0.0.1,port=63251,localport=4546]
+
+FROM THE CLIENT:
+
+Username: Aaron
+Sending joke to Aaron
+Connection from Socket[addr=/127.0.0.1,port=63260,localport=4546]
+
+FROM THE CLIENT:
+
+Username: Aaron
+Sending joke to Aaron
+Connection from Socket[addr=/127.0.0.1,port=63269,localport=4546]
+
+FROM THE CLIENT:
+
+Username: Aaron
+Sending joke to Aaron
+JOKE CYCLE COMPLETE for Aaron
+
+FROM THE CLIENT ADMIN
+
+Finn has switched the mode.
+The mode is now proverb for port number 5051
+Connection from Socket[addr=/127.0.0.1,port=63333,localport=4546]
+
+FROM THE CLIENT:
+
+Username: Aaron
+Sending proverb to Aaron
+Connection from Socket[addr=/127.0.0.1,port=63334,localport=4546]
+
+FROM THE CLIENT:
+
+Username: Aaron
+Sending proverb to Aaron
+Connection from Socket[addr=/127.0.0.1,port=63338,localport=4546]
+
+FROM THE CLIENT:
+
+Username: Aaron
+Sending proverb to Aaron
+Connection from Socket[addr=/127.0.0.1,port=63340,localport=4546]
+
+FROM THE CLIENT:
+
+Username: Aaron
+Sending proverb to Aaron
+PROVERB CYCLE COMPLETE for Aaron
+Connection from Socket[addr=/127.0.0.1,port=64005,localport=4546]
+
+FROM THE CLIENT:
+
+Username: Daniel
+Sending proverb to Daniel
+
+FROM THE CLIENT ADMIN
+
+Finn has quit the admin.
+Connection from Socket[addr=/127.0.0.1,port=64212,localport=4546]
+
+FROM THE CLIENT:
+
+Username: Aaron
+Sending proverb to Aaron
+Connection from Socket[addr=/127.0.0.1,port=64214,localport=4546]
+
+FROM THE CLIENT:
+
+Username: Aaron
+Sending proverb to Aaron
+Connection from Socket[addr=/127.0.0.1,port=64215,localport=4546]
+
+FROM THE CLIENT:
+
+Username: Aaron
+Sending proverb to Aaron
+Connection from Socket[addr=/127.0.0.1,port=64216,localport=4546]
+
+FROM THE CLIENT:
+
+Username: Aaron
+Sending proverb to Aaron
+PROVERB CYCLE COMPLETE for Aaron
+Connection from Socket[addr=/127.0.0.1,port=64220,localport=4546]
+
+FROM THE CLIENT:
+
+Username: Daniel
+Sending proverb to Daniel
+Connection from Socket[addr=/127.0.0.1,port=64222,localport=4546]
+
+FROM THE CLIENT:
+
+Username: Daniel
+Sending proverb to Daniel
+Connection from Socket[addr=/127.0.0.1,port=64223,localport=4546]
+
+FROM THE CLIENT:
+
+Username: Daniel
+Sending proverb to Daniel
+PROVERB CYCLE COMPLETE for Daniel
+
+
+...Primary JokeServer sample output
+
+
+In the admin looper thread
+Aaron Seo's Joke Server 1.0 starting up, listening at port 4545.
+
+ServerSocket awaiting connections...
+
+FROM THE CLIENT ADMIN
+
+Finn has switched the mode.
+The mode is now proverb for port number 5050
+Connection from Socket[addr=/127.0.0.1,port=63132,localport=4545]
+
+FROM THE CLIENT:
+
+Username: Aaron
+Sending proverb to Aaron
+Connection from Socket[addr=/127.0.0.1,port=63135,localport=4545]
+
+FROM THE CLIENT:
+
+Username: Aaron
+Sending proverb to Aaron
+Connection from Socket[addr=/127.0.0.1,port=63167,localport=4545]
+
+FROM THE CLIENT:
+
+Username: Aaron
+Sending proverb to Aaron
+Connection from Socket[addr=/127.0.0.1,port=63198,localport=4545]
+
+FROM THE CLIENT:
+
+Username: Aaron
+Sending proverb to Aaron
+PROVERB CYCLE COMPLETE for Aaron
+Connection from Socket[addr=/127.0.0.1,port=63254,localport=4545]
+
+FROM THE CLIENT:
+
+Username: Aaron
+Sending proverb to Aaron
+Connection from Socket[addr=/127.0.0.1,port=63257,localport=4545]
+
+FROM THE CLIENT:
+
+Username: Aaron
+Sending proverb to Aaron
+Connection from Socket[addr=/127.0.0.1,port=63272,localport=4545]
+
+FROM THE CLIENT:
+
+Username: Aaron
+Sending proverb to Aaron
+Connection from Socket[addr=/127.0.0.1,port=63274,localport=4545]
+
+FROM THE CLIENT:
+
+Username: Aaron
+Sending proverb to Aaron
+PROVERB CYCLE COMPLETE for Aaron
+
+FROM THE CLIENT ADMIN
+
+Finn has switched the mode.
+The mode is now joke for port number 5050
+Connection from Socket[addr=/127.0.0.1,port=63312,localport=4545]
+
+FROM THE CLIENT:
+
+Username: Aaron
+Sending joke to Aaron
+Connection from Socket[addr=/127.0.0.1,port=63317,localport=4545]
+
+FROM THE CLIENT:
+
+Username: Aaron
+Sending joke to Aaron
+Connection from Socket[addr=/127.0.0.1,port=63344,localport=4545]
+
+FROM THE CLIENT:
+
+Username: Aaron
+Sending joke to Aaron
+Connection from Socket[addr=/127.0.0.1,port=63345,localport=4545]
+
+FROM THE CLIENT:
+
+Username: Aaron
+Sending joke to Aaron
+JOKE CYCLE COMPLETE for Aaron
+Connection from Socket[addr=/127.0.0.1,port=63984,localport=4545]
+
+FROM THE CLIENT:
+
+Username: Daniel
+Sending joke to Daniel
+Connection from Socket[addr=/127.0.0.1,port=64014,localport=4545]
+
+FROM THE CLIENT:
+
+Username: Aaron
+Sending joke to Aaron
+Connection from Socket[addr=/127.0.0.1,port=64197,localport=4545]
+
+FROM THE CLIENT:
+
+Username: Aaron
+Sending joke to Aaron
+Connection from Socket[addr=/127.0.0.1,port=64199,localport=4545]
+
+FROM THE CLIENT:
+
+Username: Aaron
+Sending joke to Aaron
+Connection from Socket[addr=/127.0.0.1,port=64201,localport=4545]
+
+FROM THE CLIENT:
+
+Username: Aaron
+Sending joke to Aaron
+JOKE CYCLE COMPLETE for Aaron
+Connection from Socket[addr=/127.0.0.1,port=64205,localport=4545]
+
+FROM THE CLIENT:
+
+Username: Aaron
+Sending joke to Aaron
+Connection from Socket[addr=/127.0.0.1,port=64207,localport=4545]
+
+FROM THE CLIENT:
+
+Username: Aaron
+Sending joke to Aaron
+Connection from Socket[addr=/127.0.0.1,port=64208,localport=4545]
+
+FROM THE CLIENT:
+
+Username: Aaron
+Sending joke to Aaron
+Connection from Socket[addr=/127.0.0.1,port=64210,localport=4545]
+
+FROM THE CLIENT:
+
+Username: Aaron
+Sending joke to Aaron
+JOKE CYCLE COMPLETE for Aaron
+Connection from Socket[addr=/127.0.0.1,port=64225,localport=4545]
+
+FROM THE CLIENT:
+
+Username: Daniel
+Sending joke to Daniel
+Connection from Socket[addr=/127.0.0.1,port=64227,localport=4545]
+
+FROM THE CLIENT:
+
+Username: Daniel
+Sending joke to Daniel
+Connection from Socket[addr=/127.0.0.1,port=64228,localport=4545]
+
+FROM THE CLIENT:
+
+Username: Daniel
+Sending joke to Daniel
+JOKE CYCLE COMPLETE for Daniel
+
+
+...Sample output of jokeClientAdmin connecting to two servers if there are two arguments in the 
+command line.
+
+
+This is the constructor for JokeClientAdmin if you want to use it.
+
+Server One: localhost, port 5050  Server Two: localhost port 5051
+Enter your name for admin: Finn
+Hi Finn
+Would you like to change the mode?    
+If yes, simply press enter.  
+If you want to switch ports, type s.  
+If you want to quit, type quit:       
+
+Oh no. The JokeServer refused our connection! Is it running?
+
+java.net.ConnectException: Connection refused: connect
+        at java.base/sun.nio.ch.Net.connect0(Native Method)
+        at java.base/sun.nio.ch.Net.connect(Net.java:580)
+        at java.base/sun.nio.ch.Net.connect(Net.java:569)
+        at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:581)
+        at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+        at java.base/java.net.Socket.connect(Socket.java:666)
+        at java.base/java.net.Socket.connect(Socket.java:600)
+        at java.base/java.net.Socket.<init>(Socket.java:509)
+        at java.base/java.net.Socket.<init>(Socket.java:289)
+        at JokeClientAdmin.toggleMode(JokeServer.java:554)
+        at JokeClientAdmin.run(JokeServer.java:512)
+        at JokeClientAdmin.main(JokeServer.java:421)
+
+
+The current mode is now proverb for port 4545 of host localhost
+s
+Now communicating with: localhost ,port 5051
+
+
+The current mode is now joke for port 4546 of host localhost
+
+
+The current mode is now proverb for port 4546 of host localhost
+
+
+The current mode is now joke for port 4546 of host localhost
+
+
+The current mode is now proverb for port 4546 of host localhost
+
+
+The current mode is now joke for port 4546 of host localhost
+
+
+The current mode is now proverb for port 4546 of host localhost
+
+
+The current mode is now joke for port 4546 of host localhost
+
+
+The current mode is now proverb for port 4546 of host localhost
+
+
+The current mode is now joke for port 4546 of host localhost
+ 
+
+The current mode is now proverb for port 4546 of host localhost
+
+
+The current mode is now joke for port 4546 of host localhost
+s
+Now communicating with: localhost ,port 5050
+
+
+The current mode is now joke for port 4545 of host localhost
+s
+Now communicating with: localhost ,port 5051
+
+
+The current mode is now proverb for port 4546 of host localhost
+quit
+Thank you for using the admin.  The current mode is now proverb
+Cancelled by user request.
